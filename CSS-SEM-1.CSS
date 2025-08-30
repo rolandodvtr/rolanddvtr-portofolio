@@ -1,0 +1,1044 @@
+
+*,html  {
+
+    margin: 0;
+   
+}
+.Judul_utama{
+
+background-color: rgb(232, 135, 18);
+width: 100%;
+height: 15vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.judul-1{
+
+font-size: 3em;
+margin: 0;
+
+}
+
+.tulisan-first{
+     position: absolute; /* Mengatur posisi elemen secara bebas */
+    top: 20px;         /* Jarak dari atas elemen induk */
+    left: 20px;        /* Jarak dari kiri elemen induk */
+    font-weight: 'poppins', sans-serif;
+    font-size: 1.2em;
+    color: rgb(0, 60, 255); 
+
+
+    
+}
+
+
+
+
+
+
+
+.content-1 {
+
+background-color: rgb(251, 255, 251);
+
+
+}
+
+.bantuan-content1 {
+
+height: 10%;
+width: auto;
+
+}
+
+.border-tulisan {
+ 
+    position: relative;
+  margin: 50px auto 10% auto;
+  
+  /* Kita tambahkan max-width untuk membatasi ukuran di layar lebar */
+  max-width: 1200px; /* Misalnya, maksimal 800px */
+
+  /* Padding juga kita pakai persentase atau em */
+  padding: 3em; /* 2x ukuran font elemen induk */
+
+  /* Ini sudah benar */
+  border: 5px solid red;
+  border-radius: 10px;
+  margin-bottom: 10%;
+  height: 15000px;
+  
+
+    
+
+
+}
+
+
+.hero-section {
+    display: flex; /* Mengaktifkan Flexbox */
+    justify-content: space-between; /* Memberi jarak antara kedua elemen */
+    align-items: flex-start; /* Meratakan elemen secara vertikal */
+    padding: 20px 0; /* Memberi jarak di atas dan bawah */
+    margin-top: -20px;
+    gap: 20px;    
+   
+    
+   
+
+    
+
+}
+
+.hero-content {
+    width: 50%; /* Teks mengambil 60% dari lebar container */
+    order: 2;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+   
+    
+   
+    
+  
+    
+}
+.isian-1 {
+
+font-family: 'poppins', sans-serif;
+
+margin-left: -300px;
+margin-right: 20%;
+
+
+
+
+}
+
+h1{
+
+text-align: center;
+font-size: 4em;
+margin-left: 30px;
+margin-top: 50px;
+
+
+
+}
+
+.paragraf-1{
+   
+font-size: 2em;
+font-style:normal;
+margin-left: 30px;
+margin-right: -20px;
+margin-top: 150px;
+
+
+}
+
+.lanjutan-p1 {
+    margin-top: 50px;
+    width: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: center;
+}
+
+
+.hero-image {
+    width: 150%;
+    height: auto; /* Foto mengambil 40% dari lebar container */   
+    order: 1;
+    margin-left: -40px;
+   
+    
+      
+   
+}
+
+.hero-image img{
+
+border-radius: 30px;
+margin-left: -100px;
+width: 100%;
+height: auto;
+object-fit: cover;
+    
+}
+
+.hero-image-2{
+
+    order: 3;
+    margin-top: 150px;
+    width: 1000px;
+    height: auto;
+   
+    
+
+
+
+
+}
+
+.hero-image-2 img{
+
+  border-radius: 20px;
+}
+
+
+
+
+.foto1{
+ /* Ukuran maksimumnya kita atur 400 piksel, misalnya. */
+  max-width: 600px; 
+  height: auto;
+
+  /* Tambahkan ini agar gambar selalu mengecil di layar kecil */
+  width: 100%;
+  
+}
+
+.space-1{
+
+    width: auto;
+    height: 20%;
+    background-color: rgb(132, 9, 9);
+}
+
+.foto2{
+
+width: 100%;
+
+}
+
+.isian-2 {
+
+   
+   
+    width: 100%;           /* Mengatur lebar penuh */
+    height: 500px;         /* Mengatur tinggi kotak */
+    margin-top: 50px; 
+   
+  
+   
+   
+  
+}
+
+.hero-image-3{
+
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+  
+    
+
+}
+
+.hero-image-3 img{
+order: 1;
+width:800px;
+height: 400px;
+border-radius: 40px;
+
+
+}
+
+.hero-image-4{
+
+width: 60%;
+height: 350px;
+margin-left: 380px;
+margin-top: -200px;
+
+
+
+}
+
+.hero-image-4 img{
+width:300px;
+height: 400px;
+border-radius: 40px;
+
+
+}
+
+.paragraf-2{
+    order: 2;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: -200px;
+    margin-right: 20%;
+    font-family: 'poppins', sans-serif; ;
+    text-align: center;
+   
+    
+}
+
+.isian-3{
+  width: 80%;           /* Mengatur lebar penuh */
+    height: 500px; 
+   
+    margin-top: 200px;
+    margin-left: 100px;
+    
+    
+
+}
+
+.hero-image-5{
+   
+    align-items: center;
+    margin-top: -50px;
+   
+   
+
+}
+
+.hero-image-5 img{
+    width: 100%;
+    border-radius: 20px;
+    border: 5px solid black;
+
+    
+
+    
+    
+}
+
+.paragraf-3{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'poppins', sans-serif;
+}
+
+.paragraf-4{
+
+    font-size: 2em;
+    text-align: center;
+    
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: 'poppins', sans-serif;
+}
+
+.isian-4{
+
+ width: 100%;           /* Mengatur lebar penuh */
+    height: 500px; 
+  
+    margin-top: 200px; 
+    
+
+}
+
+.hero-image-6{
+
+width: 30%;
+height: 350px;
+
+margin-left: 870px;
+
+
+
+
+}
+
+.hero-image-6 img {
+
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
+ 
+
+
+    
+}
+
+.paragraf-5{
+
+    font-size: 1.2em;
+    margin-top: -300px;
+    margin-left: 680px;
+    margin-right: 25%;
+    margin-bottom: -60px;
+    font-family: 'poppins' , sans-serif;
+    
+    
+}
+
+.paragraf-6{
+
+font-size: 1.2em;
+margin-top: 180px;
+margin-left: 620px;
+margin-right: 20%;
+font-family: 'poppins' , sans-serif;
+text-align: center;
+
+
+
+}
+
+.arrow1 {
+
+    width: 10%;
+    height: auto;
+   
+    transform: rotate(-35deg);
+    margin-top: -220px;
+    margin-left: 750px;
+}
+
+
+
+
+.img5{
+    height: 400px;
+    width: auto;
+    margin-left: 50px;
+    border-radius: 30px;
+
+}
+
+.img6{
+
+ height: 400px;
+    width: auto;   
+    margin-left: 20px;
+    margin-bottom: -100px ;
+    border-radius: 30px;
+}
+
+.paragraf-7 {
+
+font-size: 1.5em;
+font-family: 'poppins' , sans-serif;
+text-align: center;
+margin-left: 780px;
+margin-top: -200px;
+margin-right: 105;
+
+}
+
+.img7{
+
+    width: 450px;
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 300px;
+    
+  
+}
+
+.img8 {
+
+    width: 350px;
+    height: auto;
+    margin-bottom: -40px;
+    margin-left: 380px;
+    border-radius: 30px;
+   
+}
+
+.vid-1 {
+    
+    width: 25%;
+    height: auto;
+    border-radius: 20px;
+
+    margin-top: -450px;
+    margin-left: 480px;
+
+}
+
+.paragraf-8 {
+
+font-size: 3em;
+font-family: 'poppins' , sans-serif;
+font-weight: bold;
+text-align: center;
+margin-left: 60px;
+
+}
+
+.for-divider1{
+
+    margin-top: 10%;
+}
+
+
+.divider.wave-circuit-full1 {
+  position: relative;
+  
+  margin-left: -47.5px;
+  width: 108%;
+
+}
+
+.divider.wave-circuit-full1 svg {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+.tulisan-second {
+   position: absolute; /* Mengatur posisi elemen secara bebas */
+    margin-top: 3%;
+    left: 20px;        /* Jarak dari kiri elemen induk */
+    font-weight: 'poppins', sans-serif;
+    font-size: 1.2em;
+    color: rgb(0, 60, 255); 
+
+}
+
+.CIM-text{
+
+    margin-top: 100px
+}
+
+.CIM-text2{
+
+margin-top: -20px;
+margin-bottom: 20px;
+}
+
+.gambar-CIM{
+
+    width: 80%;
+    height: 500px;
+    
+
+   margin: 0 auto;
+   border: 5px solid black;
+   border-radius: 20px;
+
+}
+
+.gambar-CIM img{
+ 
+    width: 90%;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 15px
+}
+
+.paragraf-9{
+
+    font-size: 2em;
+    font-family: 'poppins' , sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.wiring-CIM{
+    margin-top: 100px;
+
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.197);    
+}
+
+.paragraf-10{
+
+ font-size: 1.5em;
+    font-family: 'poppins' , sans-serif;
+   text-align: center;
+
+    margin-top: -500px;
+    margin-left: 51%;
+    margin-right: -10px;
+
+
+}
+
+.paragraf-11{
+font-size: 1.5em;
+    font-family: 'poppins' , sans-serif;
+   text-align: center;
+
+    margin-top: 30px;
+    margin-left: 70%;
+    margin-right: -40px;
+
+}
+
+.wiring-div{
+
+   width: auto;
+   height: 800px;
+  
+}
+
+.motor-CIM{
+    width: 250px;
+    height: auto;
+   margin-left: 52%;
+   margin-top: -200px;
+
+}
+
+.arrow2{
+
+     width: 8%;
+    height: auto;
+    
+    transform: rotate(-20deg);    
+    margin-left: 780px;
+    margin-top: -270px;
+}
+
+.paragraf-12{
+font-size: 1.5em;
+    font-family: 'poppins' , sans-serif;
+   text-align: center;
+
+}
+
+.paragraf-13{
+
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'poppins' , sans-serif;
+
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.for-sensor-CIM{
+
+    width: 200px;
+    height: auto;
+    margin-left: 86%;
+    
+    
+}
+
+.for-sensor-CIM img {
+
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.paragraf-14 {
+    margin-top: -200px;
+    text-align: right;
+   margin-right: 15%;
+   margin-left: 52%;
+
+     font-size: 1.5em;   
+    font-family: 'poppins' , sans-serif;
+}
+
+.wiring-CIM2{
+margin-top: 50px;
+margin-left: -48px;
+
+width: 108%;
+height: 600px;
+
+
+
+gap: 10px;
+}
+
+.soldering1 {
+    flex: 1;             /* semua gambar ambil space sama besar */
+  max-width: 20%;      /* 4 gambar = 25% */
+  height: auto;
+  object-fit: cover;   /* biar rapi, nggak ketarik aneh */
+    border-radius: 20px;
+
+    margin-bottom: -50px;
+    margin-left: 60px;
+}
+
+.soldering2 {
+    flex: 1;             /* semua gambar ambil space sama besar */
+  max-width: 20%;      /* 4 gambar = 25% */
+  height: auto;
+  object-fit: cover;   /* biar rapi, nggak ketarik aneh */
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+.soldering3 {
+    flex: 1;             /* semua gambar ambil space sama besar */
+  max-width: 20%;      /* 4 gambar = 25% */
+  height: 450px;
+  object-fit: cover;   /* biar rapi, nggak ketarik aneh */
+    border-radius: 20px;
+    margin-bottom: -50px;
+    margin-left: 40px;
+}
+
+.soldering4 {
+    flex: 1;             /* semua gambar ambil space sama besar */
+  max-width: 20%;      /* 4 gambar = 25% */
+  height: 450px;
+  object-fit: cover;   /* biar rapi, nggak ketarik aneh */
+    border-radius: 20px;
+
+    margin-left: 20px;
+    
+}
+
+.paragraf-15{
+
+      font-size: 1.5em;   
+    font-family: 'poppins' , sans-serif;
+    margin-left: 26%;
+    margin-right: 50%;
+}
+
+.paragraf-16{
+     text-align: right;
+      font-size: 1.5em;   
+    font-family: 'poppins' , sans-serif;
+    margin-right: 8%;
+    margin-top: -100px;
+    margin-left: 70%;
+}
+
+.wiring-CIM3{
+    margin-top: 100px;
+width: 100%;
+height: 700px;
+
+
+gap:100px
+}
+
+.soldering5 {
+  width: 400px;     /* 4 gambar = 25% */
+  height: 90%;
+  object-fit: cover;   /* biar rapi, nggak ketarik aneh */
+    border-radius: 20px;
+    margin-left: 120px;
+    margin-bottom: -50px;
+  
+}
+
+.soldering6 {
+  width: 400px;     /* 4 gambar = 25% */
+  height: 96%;
+  object-fit: cover;   /* biar rapi, nggak ketarik aneh */
+    border-radius: 20px;
+    margin-left: 100px;
+    
+    
+}
+
+.paragraf-17{
+
+text-align: center;
+ font-size: 1.5em;   
+    font-family: 'poppins' , sans-serif;
+    margin-left: 8%;
+    margin-top: 6%;
+    margin-right: 55%
+    
+}
+
+.paragraf-18{
+
+text-align: right;
+font-weight: bold;
+ font-size: 2em;   
+    font-family: 'poppins' , sans-serif;
+    margin-top: -170px;
+    margin-right: 23%
+}
+
+.result-CIM{
+
+width: 100%;
+height: 1000px;
+
+
+margin-top: 20%
+
+}
+
+.result-CIM-img{
+
+width: 450px;
+height: auto;
+transform: rotate(-90deg);
+border-radius: 20px;
+
+margin-top: -180px;
+margin-left: 14%;
+}
+
+.vid-2{
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+
+    margin-top: -100px;
+    margin-left: 32%;
+}
+
+.paragraf-19{
+font-weight: bold;
+ font-size: 3em;   
+    font-family: 'poppins' , sans-serif;
+
+    margin-top: -350px;
+    margin-left: 50px;
+
+}
+  
+
+.divider.wave-circuit-full2 {
+  position: relative;
+  margin-top: 150px;
+  margin-left: -47.5px;
+  width: 108%;
+
+}
+
+.divider.wave-circuit-full2 svg {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
+.tulisan-third {
+  font-size: 1.2em;
+  
+  
+    font-weight: 'poppins', sans-serif;
+    color: rgb(0, 60, 255); 
+}
+
+.Trainer-kit-text{
+
+    font-family: 'poppins', sans-serif;
+
+}
+
+.isian-5{
+
+    
+
+    width: 100%;
+    height: 500px;
+
+   
+}
+
+.bingkai-PLC{
+    
+    margin-left: 40%;
+    width: 700px;
+    height: auto;
+   
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.bingkai-PLC img{
+
+    width: 100%;
+    height: auto;
+}
+
+.paragraf-20{
+
+    font-size: 1.8em;
+    font-family: 'poppins' , sans-serif;
+    margin-top: -38%;
+    margin-right: 60%;
+    margin-left: -20px;
+  
+    text-align: center;
+
+}
+
+.isian-6{
+    margin-top: 100px;
+    width: 100%;
+    height: 1150px;
+ 
+    
+}
+
+.img21-class{
+
+    width: 650px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.paragraf-21{
+
+    font-size: 1.5em;
+    font-family: 'poppins' , sans-serif;
+    text-align: center;
+
+    margin-top: -40%;
+    margin-left: 55%;
+    margin-right: 10%;
+    
+
+}
+
+.paragraf-22{
+
+    font-size: 1.5em;
+    font-family: 'poppins' , sans-serif;
+    text-align: center;
+
+    margin-left: 54.5%;
+    margin-right: 20%;
+    margin-top: 10%;        
+
+}
+
+.img22-class {
+
+width: 20%;
+height: auto;
+
+margin-left: 80%;
+margin-top: -15%;
+
+}
+
+.img23-class{
+
+width: 60%;
+height: auto;
+border-radius: 20px;
+
+margin-top: 15%;
+margin-left: 35%;
+
+}
+
+.paragraf-23{
+
+    font-family: 'poppins' , sans-serif;
+    font-size: 1.5em;
+
+    margin-top: -35%;
+    margin-right:68%;
+    text-align: center;
+}
+
+.paragraf-24{
+
+    font-family: 'poppins' , sans-serif;
+    font-size: 1.5em;
+
+    margin-top: 50px;
+    margin-right:64%;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.isian-7{
+width: 100%;
+height: 1800px;
+
+
+margin-top: 50px;
+
+}
+
+.img24-class{
+    margin-left: 10%;
+    width:50%;
+    height: auto;
+}
+
+.paragraf-25{
+    font-family: 'poppins' , sans-serif;
+    font-size: 1.5em;
+
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 10%;
+    margin-top: -15%;
+}
+
+.isian-8{
+
+    width: 100%;
+    height: 700px;
+   
+    display: flex;
+    gap: 30%;
+
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.img25-class{
+width: 350px;
+height: 450px;
+border-radius: 20px;
+
+margin-top: 10%;
+margin-left: 25px;
+}
+
+.img26-class{
+width: 350px;
+height: 400px;
+border-radius: 20px;
+
+margin-top: 13%;
+}
+
+.paragraf-26{
+
+font-family: 'poppins' , sans-serif;
+font-size: 1.5em;
+text-align: right;
+position: relative;
+
+
+margin-right: 70px;
+margin-top: -12%;
+}
+
+.paragraf-27{
+font-family: 'poppins' , sans-serif;
+font-size: 2em;
+font-weight: bold;
+
+margin-top: -20px;
+margin-left: 14.5%;
+}
+
+.vid-3{
+    width: 25%;
+    height: auto;
+    border-radius: 20px;
+    
+    margin-left: 38%;
+    margin-top: -45%;
+}
+
+.for-divider3{
+margin-top: -60%;
+}

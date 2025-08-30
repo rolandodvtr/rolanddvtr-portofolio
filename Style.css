@@ -1,0 +1,549 @@
+*,html  {
+
+    margin: 0;
+    padding: 0%;
+}
+
+.Class-navbar{
+background-color:rgb(255, 255, 255);
+width: 100%;
+height: 15vh;   
+border-bottom: 2px solid #000; /* Membuat garis bawah hitam */
+
+
+}
+
+.ul-navbar{
+  
+   display: flex;   
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
+
+   
+  
+}
+
+.li-navbar{
+    justify-content: center;
+    list-style-type: none;
+    margin: 40px;
+    color: rgb(0, 0, 0);    
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+    
+    
+   
+   
+   
+}
+
+.li-navbar:hover{
+    background-color: rgba(12, 188, 242, 0.74);
+    transition: ease-in-out .3s ;    
+    border-radius: 20px;
+}
+
+.a-navbar{
+    color: rgb(68, 68, 68);    
+    text-decoration:none      
+        
+}
+
+.content-1 {
+
+background-color: rgb(251, 255, 251);
+
+
+}
+
+.bantuan-content1 {
+
+height: 10%;
+width: auto;
+
+
+}
+
+.border-tulisan {
+    /* Margin atas tetap, tapi horizontal kita pakai persentase */
+  /* Atau bisa juga digabung pakai '0 auto' untuk menengahkan */
+  margin:  auto; /* Margin atas 50px, margin kiri-kanan 10% */
+  
+  /* Kita tambahkan max-width untuk membatasi ukuran di layar lebar */
+  max-width: 1200px; /* Misalnya, maksimal 800px */
+
+  /* Padding juga kita pakai persentase atau em */
+  padding: 2em; /* 2x ukuran font elemen induk */
+
+  /* Ini sudah benar */
+  border: 2px solid red;
+  border-radius: 10px;
+  margin-bottom: 10%;
+
+
+}
+
+
+.hero-section {
+    display: flex; /* Mengaktifkan Flexbox */
+    justify-content: space-between; /* Memberi jarak antara kedua elemen */
+    align-items: flex-start; /* Meratakan elemen secara vertikal */
+    padding: 50px 0; /* Memberi jarak di atas dan bawah */
+    margin-top: 20px;
+}
+
+.hero-content {
+    width: 65%; /* Teks mengambil 60% dari lebar container */
+    margin-left:50px; 
+    font-family: 'Poppins', sans-serif;
+}
+.isian-perkenalan {
+
+font-family: 'poppins', sans-serif;;
+
+}
+
+h1{
+
+font-size: 4rem;
+
+}
+
+.paragraf-perkenalan {
+font-size: 30px;
+font-style:normal;
+margin-right: 10px;
+
+}
+
+.lanjutan-p1 {
+    margin-top: 50px;
+    width: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: center;
+}
+
+
+.hero-image {
+    width: 40%; /* Foto mengambil 40% dari lebar container */        
+}
+
+.foto1{
+ /* Ukuran maksimumnya kita atur 400 piksel, misalnya. */
+  max-width: 400px; 
+  height: auto;
+
+  /* Tambahkan ini agar gambar selalu mengecil di layar kecil */
+  width: 100%;
+}
+
+.hero-image img{
+
+border-radius: 30px;
+margin-left: 10px;
+    
+}
+
+
+
+
+
+/* PROJECTS SECTION  */
+
+.section-projects {
+    background-color: rgb(194, 220, 220);
+ height: 2200px; 
+  padding: 20px 100px; /* kasih jarak atas & kiri */
+
+
+
+}
+
+
+
+#projects-page {
+    margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;  /* biar kalau layar kecil, turun otomatis */
+  gap: 30px;        /* jarak antar card */
+  justify-content: center; /* atau center kalau mau ditengah */
+  align-items: center;
+ 
+
+}
+
+
+
+
+/* Tulisan Projects  */
+h2 {
+ margin-left: 150px;
+ padding-top: 100px;
+ font-family: 'Nunito Sans', sans-serif;
+   display: inline-block;
+  font-size: 4rem;
+  font-weight: 700; 
+}
+
+
+
+.Bingkai-gambar2 {
+   
+ width: 400px; 
+ height: 300px;
+  border: 5px solid #333;
+  border-radius: 10px;
+  overflow: hidden;       /* biar isi gak keluar border */
+  background: rgba(255, 255, 255, 0.5);
+  
+  text-align: center;
+  transition: transform 0.3s ease;
+  
+
+}
+
+.Bingkai-gambar2 img {
+   width: 100%;
+  height: 260px;          /* fix tinggi gambar biar seragam */
+  object-fit: cover;  /* gambar dipotong biar pas */
+  display: block;
+
+}
+
+.Bingkai-gambar2:hover {
+  transform: translateY(10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.36);
+  
+}
+
+
+
+
+
+
+.Isian-pbl1{
+
+margin-top: -20px;  
+margin-left: -100px;
+margin-right: -200px;
+font-size: 2em;
+width: 130%;
+height: 1400px;
+background-color: none;
+
+
+
+}
+
+
+
+
+.border-isian1{
+
+    border: 5px solid rgba(35, 34, 34, 0.674);
+    background-color: white;
+    border-radius: 10px;
+    height: 550px;
+    width: 1000px;
+    margin-left: 30px;
+   
+   
+ 
+    font-family: 'Nunito', sans-serif; 
+    
+    
+    
+}
+
+.border-isian2{
+
+border: 5px solid rgba(35, 34, 34, 0.674);
+    background-color: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    height: 550px;
+    width: 1000px;
+    margin-left: 400px;
+    margin-top: -560px;
+   
+   
+   
+ 
+    font-family: 'Nunito', sans-serif; 
+
+}
+
+.border-isian3{
+
+    border: 5px solid rgb(35, 34, 34);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 550px;
+    width: 800px;  
+
+    float: right;
+    margin-right: 100px;
+    margin-top: -560px;
+   
+    
+    
+   
+ 
+    font-family: 'Nunito', sans-serif; 
+
+}
+
+.desc{
+ 
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-30px); /* posisikan agak turun */
+  transition: all 0.8s ease; /* durasi animasi */
+
+   
+  position: relative; /* biar konsisten */
+  
+}
+
+.desc.active{
+
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0); /* naik ke posisi normal */
+
+}
+
+
+
+.contain-pbl1{
+
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  
+}
+
+.contain-pbl2{
+
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 5px;
+  
+}
+
+.contain-pbl3{
+
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 5px;
+  
+}
+
+
+.space-pbl1{
+margin-top: 30px;
+font-size: 1em;
+margin-left: 10px;
+
+
+}
+
+.space-pbl2{
+margin-top: 30px;
+font-size: 1em;
+margin-left: 10px;
+
+}
+
+.space-pbl3{
+margin-top: 30px;
+font-size: 1em;
+margin-left: 10px;
+
+}
+
+
+.galeri-gambar{
+
+   display: flex; /* Ini kunci untuk membuat gambar berjejer ke samping */
+    gap: 30px; /* Memberi jarak antar gambar */
+    justify-content:center; /* Menjajarkan gambar dari kiri */
+    align-items: center; /* Menyelaraskan gambar ke tengah secara vertikal */
+    flex-wrap: wrap; /* Jika layar kecil, gambar akan turun ke bawah */
+   
+
+}
+
+.wraping-all-semester-pbl{
+  margin-top: 20px;
+ width: 200px; /* Atur lebar wadah gambar agar seragam */
+ height: 150px; /* Atur tinggi wadah gambar agar seragam */
+ border-radius: 20px;
+ overflow: hidden;
+ position: relative;
+ transition:  transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.wraping-all-semester-pbl::before {
+    content: "See more..";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); /* Mulai dengan transparan */
+
+    /* GAYA UNTUK MENENGAHKAN TEKS */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+   
+    font-size: 1em;
+    font-family: 'Nunito', sans-serif; 
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+
+    /* MENGATUR OPASITAS DAN VISIBILITAS */
+    opacity: 0; /* Mulai dengan tidak terlihat */   
+    visibility:visible; /* Sembunyikan sepenuhnya */
+    transition: background-color 0.3s ease; /* Transisi untuk perubahan warna latar belakang */
+}
+
+.wraping-all-semester-pbl:hover::before {
+    background-color: rgba(0, 0, 0, 0.8); /* Menjadi hitam transparan saat hover */
+    opacity: .7; /* PASTIKAN ANGKA INI SATU */
+    visibility: visible; /* Munculkan */
+}
+
+
+
+.wraping-all-semester-pbl:hover {
+    /* Membuat gambar sedikit membesar */
+    
+    transform: scale(1.1);
+    /* Menambahkan efek bayangan */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.373);
+    
+}
+
+
+.wraping-all-semester-pbl img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Untuk memastikan gambar mengisi wadah */
+    display: block;
+}
+
+
+
+
+
+
+.sem2-img{
+width: 300px;
+height: auto;
+
+}
+  
+
+
+
+
+
+
+
+
+.project-text {
+  padding: 10px;
+}
+
+.project-text h3 {
+  font-size: 1.2rem;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.project-text p {
+  font-size: 0.9rem;
+  color: #444;
+  margin: 0;
+}
+
+.huruf-PBL1 {
+
+font-size: 1.7em;
+font-family: 'poppins', sans-serif;
+font-weight:lighter;
+
+}
+
+
+
+.huruf-PBL2 {
+font-size: 1.7em;
+font-family: 'poppins', sans-serif;
+font-weight :lighter;
+
+}
+
+.huruf-PBL3 {
+font-size: 1.7em;
+font-family: 'poppins', sans-serif;
+font-weight :lighter;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container-footer{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    height: 10vh;
+}
+
+.h1-footer{
+   font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
