@@ -27,9 +27,11 @@ margin: 0;
      position: absolute; /* Mengatur posisi elemen secara bebas */
     top: 20px;         /* Jarak dari atas elemen induk */
     left: 20px;        /* Jarak dari kiri elemen induk */
-    font-weight: 'poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
     font-size: 1.2em;
     color: rgb(0, 60, 255); 
+     text-shadow: 2px 2px 4px rgba(73, 67, 67, 0.468);
 
 
     
@@ -516,9 +518,11 @@ margin-left: 60px;
    position: absolute; /* Mengatur posisi elemen secara bebas */
     margin-top: 3%;
     left: 20px;        /* Jarak dari kiri elemen induk */
-    font-weight: 'poppins', sans-serif;
+    font-weight: bold;
+    font-family: 'poppins' , sans-serif;
     font-size: 1.2em;
     color: rgb(0, 60, 255); 
+    text-shadow: 2px 2px 4px rgba(73, 67, 67, 0.468);
 
 }
 
@@ -788,8 +792,6 @@ font-weight: bold;
 
 width: 100%;
 height: 1000px;
-
-
 margin-top: 20%
 
 }
@@ -804,14 +806,36 @@ border-radius: 20px;
 margin-top: -180px;
 margin-left: 14%;
 }
+.vidio-container2{
+ position: relative;
+  max-width: 740px; /* Lebar maksimal video */
+  height: 420px; /* Ganti nilai ini untuk atur tinggi video */
+  margin-left: 25%;
+  /* background-color: blue; */
+}
 
-.vid-2{
-    width: 70%;
-    height: auto;
-    border-radius: 20px;
+.vidio-container2 iframe{
+ position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
 
-    margin-top: -100px;
-    margin-left: 32%;
+
+}
+
+
+
+
+
+
+.top-view-text{
+ font-size: 1.8em;   
+ font-family: 'poppins' , sans-serif;
+ margin-top: -170px;
+ margin-left: 250px;
+ margin-bottom: 50px;
 }
 
 .paragraf-19{
@@ -819,8 +843,8 @@ font-weight: bold;
  font-size: 3em;   
     font-family: 'poppins' , sans-serif;
 
-    margin-top: -350px;
-    margin-left: 50px;
+   
+    margin-left: 550px;
 
 }
   
@@ -840,11 +864,11 @@ font-weight: bold;
 }
 
 .tulisan-third {
-  font-size: 1.2em;
-  
-  
-    font-weight: 'poppins', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'poppins' , sans-serif;
     color: rgb(0, 60, 255); 
+    text-shadow: 2px 2px 4px rgba(73, 67, 67, 0.468);
 }
 
 .Trainer-kit-text{
@@ -1048,14 +1072,24 @@ margin-top: -20px;
 margin-left: 14.5%;
 }
 
-.vid-3{
-    width: 25%;
-    height: auto;
-    border-radius: 20px;
-    
-    margin-left: 38%;
-    margin-top: -45%;
+.vidio-container3{
+position: relative;
+  max-width: 280px; /* Lebar maksimal video */
+  height: 500px; /* Ganti nilai ini untuk atur tinggi video */
+  margin: 0 auto;
+  margin-top: -43%;
 }
+
+.vidio-container3 iframe{
+position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+
 
 .for-divider3{
 margin-top: -60%;
