@@ -67,7 +67,7 @@ color:  rgba(255, 255, 255, 0.632);
 
   border-radius: 20px;
   margin-bottom: 10%;
-  height: 8000px;
+  height: 9300px;
   
      /* --- Latar Belakang Transparan --- */
     background-color: rgba(85, 107, 49, 0.555);
@@ -151,6 +151,7 @@ margin-top: 150px;
 }
 
 
+
 .foto2{
  margin-top: -5;
  margin-left: 63%;
@@ -166,6 +167,25 @@ margin-right: 30%;
 font-size: 2em;
 }
 
+
+.foto-solidwork1{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-top: 20%;
+    margin-right: auto;
+    margin-left: auto;
+     box-shadow: 0 5px 60px rgba(77, 98, 118, 0.556);
+     border-radius: 10px;
+
+}
+
+.teks-solidwork1{
+    font-size: 2em;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
 
 
 
@@ -381,6 +401,25 @@ margin-left: 47%;
 font-family: "poppins", sans-serif ;
 text-align: center;
 font-size: 2.5em;
+}
+
+.foto-solidwork2{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+     box-shadow: 0 5px 60px rgba(77, 98, 118, 0.556);
+     border-radius: 10px;
+
+}
+
+.teks-solidwork2{
+    font-size: 2em;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    margin-top: 20px;
 }
 
 
