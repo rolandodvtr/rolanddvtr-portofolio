@@ -1602,6 +1602,10 @@ height: 100%;
         margin-left: 55%;
     }
 
+    .paragraf-16{
+        transform: translate(30px, -40px);
+    }
+
     .paragraf-21{
     font-size: 1.5em;
     font-family: 'poppins' , sans-serif;
@@ -1687,6 +1691,11 @@ height: 100%;
     font-family: 'poppins', sans-serif;
     margin-left: 8%;
     margin-right: 42%;
+    }
+
+    .paragraf-gxwork{
+        transform: translate(50px , -30px);
+ 
     }
 
 

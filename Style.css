@@ -1,8 +1,16 @@
-/* Untuk menghapus margin dan padding bawaan browser pada semua elemen */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Ini yang terpenting! */
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    position: relative;
 }
 
 
@@ -68,6 +76,7 @@ height: 150px;
 .bantuan-content1 {
 height: 10%;
 width: auto;
+
 }
 
 .border-tulisan {
@@ -98,6 +107,7 @@ width: auto;
     width: 65%; 
     margin-left:50px; 
     font-family: 'Poppins', sans-serif;
+  
 }
 .isian-perkenalan {
 font-family: 'poppins', sans-serif;
@@ -119,22 +129,25 @@ margin-right: 10px;
 
 
 
+.perkenalan-mobile1{
+  display: none;
+}
+
+.perkenalan-mobile2{
+  display: none;
+}
+
+
+
 .hero-image {
     width: 40%;      
 }
 
 .foto1{
-  
-  max-width: 400px; 
+  border-radius: 15px;
+  max-width: 350px; 
   height: auto;
   width: 100%;
-}
-
-.hero-image img{
-
-border-radius: 30px;
-margin-left: 10px;
-
 }
 
 
@@ -168,20 +181,19 @@ margin-left: 10px;
 
 .id-project{
 font-size: 2em;
-color: #00000012;
+color: #00000008;
 }
 
 
-/* Tulisan Projects  */
-h2 {
- margin-left: 10%;
- /* padding-top: 50px; */
- font-family: 'Nunito Sans', sans-serif;
-   display: inline-block;
-  font-size: 4rem;
-  font-weight: 700; 
- 
+.tulisan-Projects{
+  font-size: 4em;
+  font-family: 'poppins', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 1000px;
+
 }
+
 
 
 .Cover-Bingkai_gambar{
@@ -215,13 +227,21 @@ h2 {
   display: block;
 }
 
-.Bingkai-gambar2:hover {
-  transform: translateY(10px);
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.36);
-  
+
+.card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease; /* Biar gerakan melayangnya halus */
+    cursor: pointer; /* Kursor berubah jadi tangan saat menyentuh gambar */
+    border-radius: 10px; /* Biar sudutnya gak tajam, sesuai bingkai */
+}
+
+/* Efek saat kursor berada di atas gambar (Hover) */
+.card:hover {
+    transform: translateY(-10px); /* Efek melayang ke atas */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Muncul bayangan di bawah */
 }
 
 
+/* 
 .border-isian1{
   border: 2px solid rgba(95, 94, 94, 0.444);
   background-color: rgba(255, 255, 255, 0.492);
@@ -241,11 +261,14 @@ h2 {
   background-color: rgba(255, 255, 255, 0.492);
   box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.173);
     border-radius: 10px;
-    height: 250px; 
-    width: 700px;
-    margin-right: 200px;
-    margin-left: 150px;
-    margin-top: -1150px;
+    height: auto; 
+    min-height: 250px;
+    width: 90%;
+    max-width: 700px;
+
+    margin-top: -100%;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Nunito', sans-serif; 
 
 }
@@ -262,16 +285,55 @@ h2 {
   font-family: 'Nunito', sans-serif; 
   margin-top: -1350px;
   margin-left: 800px; 
+} */
+
+#border-isian1, #border-isian2, #border-isian3 {
+
+    border: 2px solid rgba(95, 94, 94, 0.444);
+    background-color: rgba(255, 255, 255, 0.492);
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.173);
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    
+    height: auto;          
+    width: 90%;             
+    max-width: 700px;       
+    margin: 20px auto;     
+}
+
+#border-isian1{
+  margin-left: -450px;
+  margin-top: 970px;
+  width: 95%;           
+  max-width: 900px;      
+}
+
+#border-isian2{
+  
+  margin-left: -20px;
+  margin-top: 450px;           
+  max-width: 600px;      
+}
+
+#border-isian3{
+  margin-top: -100px;
+  width: 500px;
+  position: relative !important; 
+    left: 450px !important;
+    right: auto !important;
+    transform: none !important;           
+ 
 }
 
 
-.desc{
+
+ .desc{
  
   opacity: 0;
   visibility: hidden;
   transform: translateY(-40px); 
   transition: all 0.8s ease;
-  position: relative; 
+  position: absolute; 
   pointer-events: none;
   
 }
@@ -282,6 +344,44 @@ h2 {
   transform: translateY(0); 
   pointer-events: auto;
 }
+ 
+
+/* 
+
+ .desc {
+   opacity: 0;
+    visibility: hidden;
+    max-height: 0; 
+    overflow: hidden; 
+    
+    transition: opacity 0.8s ease, transform 0.8s ease, max-height 0.8s ease-in-out, visibility 0.8s !important;
+    
+    position: absolute; 
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-20px);
+    
+    width: 90%;
+    max-width: 700px;
+    height: auto; 
+    pointer-events: none;
+    z-index: 1;
+}  */
+
+/* .desc.active {
+   visibility: visible !important;
+    opacity: 1 !important;
+    max-height: 2000px !important; 
+    
+    transform: translateX(-50%) translateY(0) !important; 
+    pointer-events: auto;
+    position: relative; 
+    z-index: 10;
+    margin-top: 20px;
+    
+}  */
+
+
 
 
 
@@ -307,9 +407,7 @@ h2 {
   font-size: 2em;
   font-family: 'poppins', sans-serif;
   text-align: center;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 50px;
+  padding: 20px;
   
 }
 
@@ -356,6 +454,8 @@ margin-left: 10px;
     align-items: center; /* Menyelaraskan gambar ke tengah secara vertikal */
     flex-wrap: wrap; /* Jika layar kecil, gambar akan turun ke bawah */
     padding: 10px;
+
+    margin-bottom: 30px;
  }
 
 
@@ -400,15 +500,13 @@ margin-left: 10px;
 
 .wraping-all-semester-pbl:hover::before {
     background-color: rgba(0, 0, 0, 0.8); /* Menjadi hitam transparan saat hover */
-    opacity: .7; /* PASTIKAN ANGKA INI SATU */
+    opacity: .7; 
     visibility: visible; /* Munculkan */
 }
 
 
 
 .wraping-all-semester-pbl:hover {
-    /* Membuat gambar sedikit membesar */
-    
     transform: scale(1.1);
     /* Menambahkan efek bayangan */
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.373);
@@ -419,7 +517,7 @@ margin-left: 10px;
 .wraping-all-semester-pbl img{
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Untuk memastikan gambar mengisi wadah */
+    object-fit: cover;
     display: block;
 }
 
@@ -494,14 +592,6 @@ margin-left: 10px;
 
 
 
-
-
-
-
-
-
-
-
 .sem2-img{
 width: 300px;
 height: auto;
@@ -509,40 +599,15 @@ height: auto;
 }
   
 .Desain-section{
-
-    width: 35%; /* Setiap gambar mengambil 45% lebar kontainer */
-     height: 150px; /* Atur tinggi tetap untuk efek thumbnail yang seragam */
-    
-    /* Properti Tampilan */
-    /*Penting! Ini akan mengisi tinggi 150px tanpa ruang kosong */
-                       /* dan membuat gambar terlihat "terbingkai" rapi */
-    border-radius: 20px; /* Agar sudutnya melengkung seperti di kotak PBL */
-    margin: 5px; /* Memberi jarak di sekeliling gambar */
+    width: 35%; 
+    height: 150px; 
+    border-radius: 20px; 
+    margin: 5px;
     
  
 }
 
 
-
-
-
-
-
-.project-text {
-  padding: 10px;
-}
-
-.project-text h3 {
-  font-size: 1.2rem;
-  margin: 10px 0 5px;
-  font-weight: bold;
-}
-
-.project-text p {
-  font-size: 0.9rem;
-  color: #444;
-  margin: 0;
-}
 
 .huruf-PBL1 {
 
@@ -580,99 +645,173 @@ font-weight:600
 
 
 .container-footer{
-    background-color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
+    background-color: #dbe1e4;
     height: 10vh;
+    border-top: .5px solid #635d5d89;
 }
 
-.h1-footer{
-   font-size: 20px;
+.text-footer-1{
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.text-footer-bawah{
+  text-align: center;
+  margin-top: 2px;
+  margin-right: 50px;
+  font-size: .8em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:600;
+
+}
+
+.logo-linkedin{
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -18px;
+  transform: translateX(50px);
 }
 
 
+.logo-gmail{
+  width: 27px;
+  height: 27px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -27px;
+  transform: translateX(100px);
+
+}
+
+
+/* 
+ *{
+  outline:1px solid red;
+ } */
 
 
 
 
 
 
+@media screen and (max-width: 1500px) {
+
+  h1{
+    font-size: 4.55em;
+  }
 
 
-@media screen and (max-width: 1201px) {
+  .Class-navbar{
+    width: 100%;
+  }
+
+  .li-navbar{
+    font-size: 3.5em;
+    margin-top: 50px;
+  }
+
 
   
 .border-tulisan {
-  max-width: 935px;
-  padding: 2em; 
-  border: 3px  solid rgb(255, 0, 0);
-  padding-bottom: 100px;
-  border-radius: 10px;
-  margin-bottom: 10%;
-  box-shadow: 
-   -10px 0 30px -10px rgba(255, 0, 0, 0.359), 
-    10px 0 30px -10px rgba(3, 3, 3, 0.467);
+  width: 95%;
+  height: 65%;
+  margin-top: 15%;
+  margin-bottom: -50%;
+}
+
+.hero-image{
+  margin-right: 50px;
+  width: 60%;
+}
+
+.hero-content{
+  /* transform: translateY(500%); */
+  margin-left: 5px;
 
 }
 
+
 .foto1{
-  margin-top: 30%;
-  max-width: 400px; 
+  margin-top: 10px;
+  border-radius: 20px;
+  max-width: 550px; 
   height: auto;
   width: 100%;
 }
 
-.hero-image img{
-border-radius: 30px;
-margin-left: 10px;
+
+.paragraf-perkenalan{
+display: none;
 }
 
-.border-isian1{
-  border: 2px solid rgba(95, 94, 94, 0.444);
-  background-color: rgba(255, 255, 255, 0.492);
-  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.173);
-  border-radius: 30px;
-  height: 780px;
-  width: 800px;
-  font-family: 'Nunito', sans-serif;
-  margin-left: 55%;
-  margin-top: -10%;
+.perkenalan-mobile1{
+  display: block;
+  font-size: 4.2em;
+  transform: translateY(-102%);
+  margin-left: 95px;
+  margin-right: 650px;
   }
 
+.perkenalan-mobile2{
+  display: block;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 4.4em;
+  transform: translateY(-138%);
+  margin-left: 95px;
+  margin-right: 90px;
   
-.border-isian2{
-  border: 2px solid rgba(95, 94, 94, 0.444);
-  background-color: rgba(255, 255, 255, 0.492);
-  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.173);
-    border-radius: 30px;
-    height: 250px; 
-    width: 700px;
-    margin-right: 200px;
-    margin-left: 150px;
-    margin-top: -1350px;
-    font-family: 'Nunito', sans-serif;
+}
+
+.bantuan-content2{
+  
+}
+
+.tulisan-Projects{
+  font-size: 6em;
+}
+
+.huruf-PBL1 {
+font-size: 1.8em;
+margin-top: -4px;
+}
+
+.huruf-PBL2{
+  font-size: 2em;
+  margin-top: -6px;
+}
+
+.huruf-PBL3{
+  font-size: 2.2em;
+  margin-top: -7px;
+}
+
+#border-isian1{
+  margin-right: -20%;
+  height: 19%;
+  margin-bottom: -8%;
+  margin-left: -45%;
+}
+
+.contain-pbl1{
+  font-size: 1.8em;
+}
+
+#border-isian3{
+  margin-right: 40%;
 }
 
 
-  .border-isian3{
-  border: 2px solid rgba(95, 94, 94, 0.444);
-  background-color: rgba(255, 255, 255, 0.492);
-  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.173);
-  border-radius: 10px;
-  height: 150px;
-  width: 600px;  
-  font-family: 'Nunito', sans-serif; 
-  margin-top: -1500px;
-  margin-left: 500px; 
-}
-
-
-  .section-projects {
-    background-color:  #dbe1e4;
-    width: 100%;
-    height: 1600px; 
-    padding: 20px 50px; 
+.space-pbl1{
+  margin-top: -10px;
+  font-size: 2.7em;
 }
 
 .galeri-gambar-pbl-1{
@@ -691,18 +830,37 @@ margin-left: 10px;
 
 }
 
-.huruf-PBL1 {
-font-size: 1.4em;
-font-family: 'Merriweather', sans-serif;
-font-weight:600
-}
-  
 
+.text-footer-1{
+  margin-top: 40px;
+  font-size: 2em;
 }
 
+.text-footer-bawah{
+  font-size: 2.5em;
+  margin-left: -20%;
+  margin-top: 20px;
+}
+
+.logo-linkedin{
+  width: 70px;
+  height: auto;
+  margin-top: -55px;
+}
+
+.logo-gmail{
+  width: 70px;
+  height: auto;
+  transform: translateX(200%);
+  margin-left: 50%;
+  margin-top: -70px;
+}
+
+}
 
 
 
+/* "logo-linkedin logo-gmail */
 
 
 

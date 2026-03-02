@@ -1,8 +1,7 @@
 // ----------------- For Navbar Animation --------------  
-// Ambil elemen navbar
 const navbar = document.querySelector('.Class-navbar');
 
-// Saklar untuk melacak apakah user sudah mulai menggulir
+// Saklar melacak apakah user menggulir
 let hasScrolled = false;
 
 // Event listener untuk mendeteksi guliran halaman
@@ -83,7 +82,6 @@ cards.forEach(card => {
 
   });
 });
-
 
 
 
