@@ -473,10 +473,15 @@ margin-top: 3%;
 
 @media screen and (max-width: 1500px) {
     body{
-      
+
     }
 
-
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    }
+    
     .Judul_utama{
     background-image: linear-gradient(to bottom, rgb(205, 12, 244), rgba(49, 152, 243, 0));          
     width: 100%;
@@ -488,7 +493,7 @@ margin-top: 3%;
 
 
     .judul-1{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 4em;
     text-align: center;
     margin-top: -1%;

@@ -1556,6 +1556,11 @@ height: 100%;
         height: 12vh;
     }
 
+    .judul-1{
+        font-family: 'Montserrat' , sans-serif;
+        font-size: 4em;
+    }
+
     .border-tulisan {
         margin-top: -5%;
         height: 26700px !important;
